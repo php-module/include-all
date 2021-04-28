@@ -14,7 +14,7 @@
   ],
   "homepage": "https://github.com/php-modules/include-all",
   "readme": "./README.md",
-  "licence": "MIT",
+  "license": "MIT",
   "authors": [
     {
       "name": "Agostinho Lopes",
