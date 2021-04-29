@@ -3,7 +3,12 @@
   "version": "1.0.3",
   "description": "A small and simple class to automatically include whole the directories and subdirectories files in php.",
   "type": "library",
-  "minimum-stability": "alpha",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Sammy\\Packs\\": "core/"
+    }
+  },
   "keywords": [
     "include-all",
     "include",
