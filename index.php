@@ -9,12 +9,11 @@
  * - Autoload, application dependencies
  */
 namespace Sammy\Packs\IncludeAll {
+  include_once __DIR__ . '/autoload.php';
 	/**
 	 * Make sure the module base internal class is not
 	 * declared in the php global scope defore creating
 	 * it.
 	 */
-	return include_once (dirname (__FILE__) .
-    '/core/index.php'
-  );
+	return require ( __DIR__ . '/core/index.php' );
 }
