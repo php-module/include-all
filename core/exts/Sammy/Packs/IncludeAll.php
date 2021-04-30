@@ -9,12 +9,12 @@
  * - Autoload, application dependencies
  */
 namespace Sammy\Packs {
-  use Sammy\Packs\IncludeAll\Base as IncludeAllBaseClass;
+  #use Sammy\Packs\IncludeAll\Base as IncludeAllBaseClass;
   /**
    * Make sure the module base internal class is not
    * declared in the php global scope defore creating
    * it.
    */
-  class IncludeAll extends IncludeAllBaseClass {
+  class IncludeAll /* extends IncludeAllBaseClass */ {
   }
 }
