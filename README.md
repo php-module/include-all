@@ -21,7 +21,7 @@ You can use the include-all library with and without composer.
 If not using composer the library brigns an autoload file wich should be encountered inside the directory it is located. 
 The `include-all autoload file` should be required such as the `vendor/autoload.php` is... Before trying to use the library. 
 
-### Without using composer autoload
+### Without using composer autoload.
 
 ```php
 use Sammy\Packs\IncludeAll;
