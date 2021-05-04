@@ -5,7 +5,7 @@
   "type": "library",
   "minimum-stability": "dev",
   "autoload": {
-    "psr-0": {
+    "psr-4": {
       "Sammy\\Packs\\": "src/"
     }
   },
