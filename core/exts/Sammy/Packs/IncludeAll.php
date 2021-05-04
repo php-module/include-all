@@ -8,7 +8,7 @@
  * @namespace Sammy\Packs
  * - Autoload, application dependencies
  */
-namespace Sammy\Packs {
+#namespace Sammy\Packs {
   #use Sammy\Packs\IncludeAll\Base as IncludeAllBaseClass;
   /**
    * Make sure the module base internal class is not
@@ -17,4 +17,4 @@ namespace Sammy\Packs {
    */
   class IncludeAll /* extends IncludeAllBaseClass */ {
   }
-}
+#}
