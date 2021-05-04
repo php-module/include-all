@@ -5,9 +5,8 @@
   "type": "library",
   "minimum-stability": "dev",
   "autoload": {
-    "psr-0": {
-      "Sammy\\Packs\\": "src/"
-    }
+    "psr-0": { "Sammy\\Packs\\": "src/" },
+    "psr-4": { "Sammy\\Packs\\": "src/" }
   },
   "keywords": [
     "include-all",
