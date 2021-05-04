@@ -15,5 +15,5 @@ namespace Sammy\Packs\IncludeAll {
 	 * declared in the php global scope defore creating
 	 * it.
 	 */
-	return require ( __DIR__ . '/core/index.php' );
+	return require ( __DIR__ . '/src/index.php' );
 }
