@@ -9,6 +9,7 @@
  * - Autoload, application dependencies
  */
 namespace Sammy\Packs\IncludeAll {
+  use php\module as phpmodule;
 	/**
 	 * Make sure the module base internal class is not
 	 * declared in the php global scope defore creating
@@ -115,9 +116,7 @@ namespace Sammy\Packs\IncludeAll {
 	$InPHPModuleContext = ( boolean )(
 		isset ($module) &&
 		is_object ($module) &&
-		in_array ('exports', get_object_vars (
-			$module
-		))
+		$module instanceof phpmodule
 	);
 	/**
 	 * Alternate the returning way

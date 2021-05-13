@@ -15,6 +15,6 @@ namespace Sammy\Packs {
    * declared in the php global scope defore creating
    * it.
    */
-  class IncludeAll /* extends IncludeAllBaseClass */ {
+  class IncludeAll extends IncludeAll\Base {
   }
 }

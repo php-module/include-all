@@ -6,7 +6,11 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-0": { "Sammy\\Packs\\": "src/" },
-    "psr-4": { "Sammy\\Packs\\": "src/" }
+    "psr-4": { "Sammy\\Packs\\": "src/" },
+    "classmap": [
+      "src/index.php",
+      "src/Sammy/"
+    ]
   },
   "keywords": [
     "include-all",
@@ -31,5 +35,9 @@
     "email": "base.samils@gmail.com",
     "issues": "https://github.com/php-module/include-all/issues",
     "wiki": "https://github.com/php-module/include-all/wiki"
+  },
+  "require": {
+    "php": ">=5.3.20",
+    "php_modules/core": "dev-main"
   }
 }
