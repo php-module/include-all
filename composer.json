@@ -1,6 +1,6 @@
 {
   "name": "php_modules/include-all",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A small and simple class to automatically include whole the directories and subdirectories files in php.",
   "type": "library",
   "minimum-stability": "dev",
