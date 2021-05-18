@@ -64,15 +64,15 @@ It is possible to get the source code from github following the url shown bellow
 ### If using composer:
 
 ```bash
-composer require php_modules/include-all
-``` 
+composer require php_modules/core php_modules/include-all
+```
 
 Adding it as a requirement inside the `composer.json` file:
 
 ```json
 {
   "require": {
-    "php_modules/include-all": "^1.0"
+    "php_modules/include-all": "^1.0.5"
   }
 }
 ```
