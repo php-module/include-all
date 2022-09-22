@@ -1,0 +1,43 @@
+{
+  "name": "php_modules/include-all",
+  "version": "1.0.5",
+  "description": "A small and simple class to automatically include whole the directories and subdirectories files in php.",
+  "type": "library",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-0": { "Sammy\\Packs\\": "src/" },
+    "psr-4": { "Sammy\\Packs\\": "src/" },
+    "classmap": [
+      "src/index.php",
+      "src/Sammy/"
+    ]
+  },
+  "keywords": [
+    "include-all",
+    "include",
+    "autoload",
+    "bootstrap",
+    "directories",
+    "directory"
+  ],
+  "homepage": "https://github.com/php-modules/include-all",
+  "readme": "./README.md",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Agostinho Lopes",
+      "email": "agostinhosaml832@gmail.com",
+      "homepage": "https://agostinhosamil.github.io",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "base.samils@gmail.com",
+    "issues": "https://github.com/php-module/include-all/issues",
+    "wiki": "https://github.com/php-module/include-all/wiki"
+  },
+  "require": {
+    "php": ">=5.3.20",
+    "php_modules/core": "^1.0.2"
+  }
+}
